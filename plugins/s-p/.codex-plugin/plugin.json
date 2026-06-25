@@ -1,7 +1,7 @@
 {
   "name": "s-p",
-  "version": "1.0.1",
-  "description": "Company financials, ratings context, market research, and industry data",
+  "version": "1.0.3",
+  "description": "Query S&P Global financial datasets",
   "author": {
     "name": "S&P Global",
     "url": "https://www.spglobal.com"
@@ -11,17 +11,17 @@
   "keywords": [],
   "apps": "./.app.json",
   "interface": {
-    "displayName": "S&P",
+    "displayName": "S&P Global",
     "developerName": "S&P Global",
-    "shortDescription": "Company financials, ratings context, market research, and industry data",
-    "longDescription": "Company financials, ratings context, market research, and industry data",
-    "category": "Research",
+    "shortDescription": "Query S&P Global financial datasets",
+    "longDescription": "Use natural language to query a range of S&P Global datasets, including S&P Capital IQ Financials, transcripts, and more. Designed to save time and resources for engineering, product, and business teams in financial services, this server streamlines access to company information, financial statements, historical market data, and global securities.",
+    "category": "Finance",
     "capabilities": [],
     "brandColor": "#D80028",
     "defaultPrompt": [
-      "Pull S&P company financials and ratings context for a ticker and summarize the main risks.",
-      "Compare revenue growth, margins, and valuation multiples for a company and its peers in S&P.",
-      "Find recent S&P research or industry outlook items for a sector and summarize the takeaways."
+      "Pull S&P Global company financials and ratings context for a ticker and summarize the main risks.",
+      "Compare revenue growth, margins, and valuation multiples for a company and its peers in S&P Global.",
+      "Find recent S&P Global research or industry outlook items for a sector and summarize the takeaways."
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",
